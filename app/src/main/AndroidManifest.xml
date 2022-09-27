@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Keep_Notes">
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".updateactivity"
             android:exported="false" />
         <activity
             android:name=".NoteActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".splashscreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
